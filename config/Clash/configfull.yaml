@@ -65,7 +65,6 @@ sniffer:
   force-domain:
     - +.v2ex.com
   skip-domain:
-    - "Mijia Cloud"
     - "dlg.io.mi.com"
     - "+.push.apple.com"
     - "+.apple.com"
