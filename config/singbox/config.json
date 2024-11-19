@@ -1,13 +1,24 @@
 {
-  "log": { "level": "info", "timestamp": true },
+  "log": {
+    "disabled": false,
+    "level": "info",
+    "timestamp": true
+  },
+  
   "experimental": {
     "clash_api": {
-      "external_controller": "0.0.0.0:9095", "external_ui": "ui", "secret": "",
-      "external_ui_download_url": "https://mirror.ghproxy.com/https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
-      "external_ui_download_detour": "🎯 全球直连", "default_mode": "rule"
+      "external_controller": "192.168.10.6:9090",
+      "external_ui": "/etc/sing-box/ui",
+      "secret": "",
+      "external_ui_download_url": "https://ghp.ci/https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
+      "external_ui_download_detour": "🎯 全球直连",
+      "default_mode": "rule"
     },
-    "cache_file": { "enabled": true, "store_fakeip": false }
+    "cache_file": {
+      "enabled": true
+    }
   },
+  
   "dns": {
     "servers": [
       { "tag": "proxyDns", "address": "tls://8.8.8.8", "detour": "🚀 节点选择" },
@@ -31,6 +42,7 @@
       "address": "172.19.0.1/30",
       "mtu": 9000,
       "auto_route": true,
+      "auto_redirect": true,
       "strict_route": true,
       "sniff": true,
       "endpoint_independent_nat": false,
