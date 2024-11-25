@@ -7,9 +7,9 @@
   
   "experimental": {
     "clash_api": {
-      "external_controller": "0.0.0.0:9095",
+      "external_controller": "10.0.0.1:9009",
       "external_ui": "/etc/sing-box/ui",
-      "secret": "",
+      "secret": "123456",
       "external_ui_download_url": "https://ghp.ci/https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
       "external_ui_download_detour": "🎯 全球直连",
       "default_mode": "rule"
@@ -23,8 +23,8 @@
   
   "dns": {
     "servers": [
-      {"tag": "proxyDns", "address": "https://dns.google/dns-query", "address_resolver": "defaultDns", "address_strategy": "ipv4_only", "detour": "🚀 节点选择"},
-      {"tag": "localDns", "address": "223.5.5.5", "address_resolver": "defaultDns", "address_strategy": "ipv4_only", "detour": "🎯 全球直连"},
+      {"tag": "proxyDns", "address": "https://a622472923.666.66a.net/dns-query/pure", "address_resolver": "defaultDns", "address_strategy": "ipv4_only", "detour": "🚀 节点选择"},
+      {"tag": "localDns", "address": "https://i586248014.666.66a.net/dns-query", "address_resolver": "defaultDns", "address_strategy": "ipv4_only", "detour": "🎯 全球直连"},
       {"tag": "defaultDns", "address": "223.5.5.5", "address_strategy": "ipv4_only", "detour": "🎯 全球直连"}
     ],
     "rules": [
