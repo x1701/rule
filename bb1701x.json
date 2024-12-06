@@ -15,7 +15,7 @@
     "servers": [
       {"tag": "proxyDns", "address": "https://i586248014.666.66a.net/dns-query", "address_resolver": "defaultDns", "address_strategy": "ipv4_only", "detour": "🚀 节点选择"},
       {"tag": "localDns", "address": "https://a622472923.666.66a.net/dns-query/pure", "address_resolver": "defaultDns", "address_strategy": "ipv4_only", "detour": "🎯 全球直连"},
-      {"tag": "defaultDns", "address": "https://a622472923.666.66a.net/dns-query/pure", "address_strategy": "ipv4_only", "detour": "🎯 全球直连"}
+      {"tag": "defaultDns", "address": "223.5.5.5", "address_strategy": "ipv4_only", "detour": "🎯 全球直连"}
     ],
     "rules": [
       { "outbound": "any", "server": "defaultDns", "disable_cache": true },
